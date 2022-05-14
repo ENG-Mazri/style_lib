@@ -1,0 +1,41 @@
+@each $key, $val in $palette {
+    @if ($key == "yellow" or $key == "orange" or $key == "pink" ){
+        .btn-#{$key}{
+            background-color: white;
+            color: $purple;
+            border-style: solid;
+            border-color: $purple;
+            border-radius: 10px;
+            box-shadow: 3px 2px 5px $val;
+            padding: $large-padding;
+            margin: 2%;
+            font-size: $base-fontSize;
+            font-weight: bold;
+            &:hover{
+                background-color: mix(white, $val, 70);
+                // color: $purple;
+                box-shadow:none;
+                cursor: pointer;
+            }
+        }
+    }@else if ($key == "purple" or $key == "primary"){
+        .btn-#{$key}{
+            background-color: white;
+            color: $purple;
+            border-style: solid;
+            border-color: $orange;
+            border-radius: 10px;
+            box-shadow: 3px 2px 5px $val;
+            padding: $large-padding;
+            margin: 2%;
+            font-size: $base-fontSize;
+            font-weight: bold;
+            &:hover{
+                background-color: mix(white, $val, 70);
+                // color: $purple;
+                box-shadow:none;
+                cursor: pointer;
+            }
+        }
+    }
+}

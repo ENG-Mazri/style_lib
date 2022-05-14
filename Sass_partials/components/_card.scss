@@ -1,0 +1,124 @@
+@each $key, $val in $palette {
+    @if ($key == "yellow" or $key == "orange" or $key == "pink" ){
+        .card-#{$key}{
+            background-color: #FFFFFF;
+            border-style: solid;
+            border-color: $purple;
+            border-radius: 10px;
+            box-shadow: 10px 5px 5px $val;
+            padding: $large-padding;
+            margin: 2%;
+        
+            .card-img{
+                position: relative;
+                width: 100%;
+            }
+        
+            .card-title{
+                color: $text;
+                font-family: $prim-font;
+                font-size: $medium-fontSize;
+                font-weight: bold;
+            }
+            .card-text{
+                color: $text;
+                font-family: $prim-font;
+                font-size: $base-fontSize;
+                font-weight: $text;
+            }
+            &:hover{
+                background-color: mix(white, $val, 70);
+                box-shadow:none;
+            }
+        }
+    }@else if ($key == "purple" or $key == "primary"){
+        .card-#{$key}{
+            background-color: #FFFFFF;
+            border-style: solid;
+            border-color: $orange;
+            border-radius: 10px;
+            box-shadow: 10px 5px 5px $val;
+            padding: $large-padding;
+            margin: 2%;
+        
+            .card-img{
+                position: relative;
+                width: 100%;
+            }
+        
+            .card-title{
+                color: $text;
+                font-family: $prim-font;
+                font-size: $medium-fontSize;
+                font-weight: bold;
+            }
+            .card-text{
+                color: $text;
+                font-family: $prim-font;
+                font-size: $base-fontSize;
+                font-weight: $text;
+            }
+            &:hover{
+                background-color: mix(white, $val, 70);
+                box-shadow:none;
+            }
+        }
+    }
+    
+}
+
+//Black & white cards
+
+.card-black{
+    background-color: #212529;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    padding: $large-padding;
+    margin: 2%;
+
+    .card-img{
+        position: relative;
+        width: 100%;
+    }
+
+    .card-title{
+        color: white;
+        font-family: $prim-font;
+        font-size: $medium-fontSize;
+        font-weight: bold;
+  
+    }
+    .card-text{
+        color: white;
+        font-family: $prim-font;
+        font-size: $base-fontSize;
+        font-weight: $text;
+
+    }
+}
+
+.card-white{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    padding: $large-padding;
+    margin: 2%;
+
+    .card-img{
+        position: relative;
+        width: 100%;
+    }
+
+    .card-title{
+        color: $black;
+        font-family: $prim-font;
+        font-size: $medium-fontSize;
+        font-weight: bold;
+  
+    }
+    .card-text{
+        color: $black;
+        font-family: $prim-font;
+        font-size: $base-fontSize;
+        font-weight: $text;
+
+    }
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merriweather+Sans&family=Quicksand:wght@700&family=Squada+One&display=swap');
+
+//colors
+$prim: #3A86FF;
+$sec: #B1A7A6;
+$text: #161A1D;
+$yellow: #FFBE0B;
+$orange: #FB5607;
+$pink: #FF006E;
+$purple: #8338EC;
+$black: #212529;
+
+$palette: (
+    "primary": #3A86FF,
+    "secondary": #B1A7A6,
+    "text": #161A1D,
+    "yellow": #FFBE0B,
+    "orange": #FB5607,
+    "pink": #FF006E,
+    "purple": #8338EC,
+
+);
+
+$bwPalette: (
+    "black": #212529,
+    "white": white
+);
+
+// paddings
+$base-padding: 5px;
+$medium-padding: 8px;
+$large-padding: 12px;
+
+// font size
+
+$base-fontSize: 1rem;
+$medium-fontSize: 1.5rem;
+$large-fontSize: 2rem;
+$Xlarge-fontSize: 45px;
+
+// fonts
+
+$prim-font: 'Roboto', sans-serif;
+// $sec-font:
+
+// fonts weight
+
+$title: 400;
+$text: 100;
+
+
+// Shadows
+
