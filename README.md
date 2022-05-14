@@ -64,5 +64,12 @@ This is a UI library for creating quick styled web pages.
         <button class="btn-primary">Button</button>
     </div>
 ```
-
+![Снимок экрана (13)](https://user-images.githubusercontent.com/84850871/168440786-ca0c6c4b-45af-4c94-8e17-9ab1eb26ade9.png)
+```html
+   <div class="card-yellow box">
+        <img class="card-img" src="logo.png" alt="">
+        <h1 class="card-title">Title</h1>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, atque.</p>
+   </div>
+```
 
