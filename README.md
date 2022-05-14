@@ -1,7 +1,7 @@
 # style_lib
 
 ## Description
-This is a library for styling build with Sass.
+This is a library for styling built with Sass.
 ## Todos
 - [x] create colourful cards
 - [x] create black & white cards
