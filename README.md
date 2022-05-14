@@ -1,7 +1,7 @@
 # style_lib
 
 ## Description
-This is a library for styling built with Sass.
+This is a UI library for creating quick styled web pages.
 ## Dependencies
 - [Sass](https://sass-lang.com/)
 - [Gulp.js](https://gulpjs.com/)
